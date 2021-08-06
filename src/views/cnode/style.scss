@@ -1,0 +1,132 @@
+.filter {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  border-radius: 3px 3px 0 0;
+}
+.filter .pos{
+  float: left;
+}
+
+.filter span {
+  margin: 5px 10px;
+  color: #80bd01;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.filter .curr {
+  background-color: #80bd01;
+  color: #fff;
+  padding: 3px 4px;
+  border-radius: 3px
+}
+
+.list {
+  /* float: left; */
+  /* position: absolute;
+  left: 15%; */
+  width: 100%;
+  // margin-left: 15%;
+}
+
+.cell {
+  height: 40px;
+  /* margin: 0 auto; */
+  position: relative;
+  background: #FFFFFF;
+  /* padding: 10px 0 10px 10px; */
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  /* padding-right: 10px; */
+}
+
+.cell a {
+  color: #333;
+}
+
+.cell .title {
+  max-width: 60%;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 5px;
+  position: absolute;
+  /* top: 0; */
+  /* left: 55px; */
+}
+
+.cell img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.cell .lab {
+  line-height: 40px;
+  vertical-align: top;
+  background: #CCCCCC;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.cell .curr {
+  background: #80BD01;
+  line-height: 40px;
+  vertical-align: top;
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.reply_count {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 65px; */
+  text-align: center;
+  vertical-align: top;
+  line-height: 40px;
+  font-size: 10px;
+}
+
+.time {
+  float: right;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.page {
+  position: relative;
+  // left: 17%;
+  margin-left: 0;
+ul{
+  padding: 0;
+}
+
+}
+
+.page li {
+  list-style: none;
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ccc;
+
+}  
+.page .curr {
+    color: #FFFFFF;
+    background: #80BD01;
+}
+

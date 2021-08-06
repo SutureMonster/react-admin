@@ -1,0 +1,50 @@
+
+.cj-sider{
+  height: 100%;
+  position: relative;
+  .logo{
+  // width: 100px;
+  // height: 150px;
+  text-align: center;
+  img{
+    display: block;
+    margin-top: 10px;
+    margin-left: -5px;
+    width: 100px;
+    height: 100px;
+  } 
+}
+.toggle{
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+}
+.cj-header{
+  background-color: #fff;
+  padding: 0 30px;
+}
+.cj-content{
+  padding: 15px;
+  margin: 24px 16px;
+  background-color: #fff;
+  min-width: 900px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.toggle{
+    color:#fff;
+    font-size: 20px;
+}
+
+.app{
+    height: 100%;
+    &>div{
+        height: 100%;
+    }
+}
+.ant-layout{
+    height: 100%;
+}
